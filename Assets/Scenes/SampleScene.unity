@@ -503,48 +503,72 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c50e3816607d5324fa1a7a38d2436958, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  namesForChestType:
-  - Wooden
-  - Bronze
-  - Silver
-  - Golden
-  - Mythical
-  weightsForChestType: 580200005e010000c80000003200000014000000
-  namesForWoodenChest:
-  - Common
-  - Uncommon
-  - Rare
-  - Epic
-  - Legendary
-  weightsForWoodenChest: c2010000640000001e0000000700000001000000
-  namesForBronzeChest:
-  - Common
-  - Uncommon
-  - Rare
-  - Epic
-  - Legendary
-  weightsForBronzeChest: c80000007d000000190000000500000001000000
-  namesForSilverChest:
-  - Common
-  - Uncommon
-  - Rare
-  - Epic
-  - Legendary
-  weightsForSilverChest: 96000000640000001e0000000a00000002000000
-  namesForGoldenChest:
-  - Common
-  - Uncommon
-  - Rare
-  - Epic
-  - Legendary
-  weightsForGoldenChest: 6400000096000000320000000a00000002000000
-  namesForMythicalChest:
-  - Common
-  - Uncommon
-  - Rare
-  - Epic
-  - Legendary
-  weightsForMythicalChest: 0000000019000000190000004b00000032000000
+  chestTypes:
+  - name: Wooden
+    weight: 600
+  - name: Bronze
+    weight: 350
+  - name: Silver
+    weight: 200
+  - name: Golden
+    weight: 50
+  - name: Mythical
+    weight: 20
+  woodenItems:
+  - name: Common
+    weight: 450
+  - name: Uncommon
+    weight: 100
+  - name: Rare
+    weight: 30
+  - name: Epic
+    weight: 7
+  - name: Legendary
+    weight: 1
+  bronzeItems:
+  - name: Common
+    weight: 200
+  - name: Uncommon
+    weight: 125
+  - name: Rare
+    weight: 25
+  - name: Epic
+    weight: 5
+  - name: Legendary
+    weight: 1
+  silverItems:
+  - name: Common
+    weight: 150
+  - name: Uncommon
+    weight: 100
+  - name: Rare
+    weight: 30
+  - name: Epic
+    weight: 10
+  - name: Legendary
+    weight: 2
+  goldenItems:
+  - name: Common
+    weight: 100
+  - name: Uncommon
+    weight: 150
+  - name: Rare
+    weight: 50
+  - name: Epic
+    weight: 10
+  - name: Legendary
+    weight: 2
+  mythicalItems:
+  - name: Common
+    weight: 0
+  - name: Uncommon
+    weight: 25
+  - name: Rare
+    weight: 25
+  - name: Epic
+    weight: 75
+  - name: Legendary
+    weight: 50
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
